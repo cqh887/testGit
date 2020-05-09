@@ -20,6 +20,9 @@ import java.io.IOException;
 /**
  * Created by Donghua.Chen on 2018/5/1.
  */
+
+
+// 修改一下
 @Component
 public class QiniuCloudService {
 

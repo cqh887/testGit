@@ -37,10 +37,12 @@ public class QiniuCloudService {
      *
      *
      */
+    // dwada
+
     @Value("${qiniu.bucket}")
     private String BUCKET;
     /**
-     * 七牛云外网访问
+     * 七牛云外网访问                       test
      */
     @Value("${qiniu.cdn.url}")
     public String QINIU_UPLOAD_SITE;

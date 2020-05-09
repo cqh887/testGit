@@ -23,6 +23,7 @@ import java.io.IOException;
 
 
 // 修改一下
+//    陈庆浩修改一下
 @Component
 public class QiniuCloudService {
 

@@ -9,7 +9,15 @@ package cn.luischen.model;
  * @version 1.0
  */
 public class CqhDao {
+
+
+    /**
+     * 姓名
+     */
     private String name;
+    /**
+     * 性别
+     */
     private String sex;
 
     public String getName() {

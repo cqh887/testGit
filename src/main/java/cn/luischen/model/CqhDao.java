@@ -20,6 +20,11 @@ public class CqhDao {
      */
     private String sex;
 
+    /**
+     * get 和set方法
+     *
+     * @return
+     */
     public String getName() {
         return name;
     }

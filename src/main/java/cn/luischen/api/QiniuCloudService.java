@@ -33,9 +33,6 @@ public class QiniuCloudService {
     private String SECRET_KEY;
     /**
      * 仓库
-     *
-     *
-     *
      */
     // dwada                      test2
 
@@ -46,6 +43,16 @@ public class QiniuCloudService {
      */
     @Value("${qiniu.cdn.url}")
     public String QINIU_UPLOAD_SITE;
+
+
+    /**
+     * 这是master中的方法
+     *
+     * @return
+     */
+    public int add() {
+        return 1;
+    }
 
     public String upload(MultipartFile file, String fileName) {
 

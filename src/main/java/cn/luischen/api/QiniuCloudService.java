@@ -37,7 +37,7 @@ public class QiniuCloudService {
      *
      *
      */
-    // dwada
+    // dwada                      test2
 
     @Value("${qiniu.bucket}")
     private String BUCKET;

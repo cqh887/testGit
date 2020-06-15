@@ -6,9 +6,9 @@ spring:
 server:
   port: 8201
 spring:
-  profiles:dev
+  profiles: dev
   application:
-    name:springcloud-provider-dept
+    name: springcloud-provider-dept
 
 #eureka配置
 eureka:
@@ -22,9 +22,9 @@ eureka:
 server:
   port: 8202
 spring:
-  profiles:test
+  profiles: test
   application:
-    name:springcloud-provider-dept
+    name: springcloud-provider-dept
 
 #eureka配置
 eureka:
